@@ -4,7 +4,7 @@
   "description": "Gestion de ventas de productos para mascotas y Cervezas",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "node src/index.js"
   },
   "keywords": [
     "Productos",
