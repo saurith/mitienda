@@ -10,7 +10,7 @@ app.use(express.json());
 
 //Rutas
 app.use('/',require('./routers/rtrCliente'));
-
+app.use("/",require("./routers/rtrCategoria"));
 
 app.listen(PORT,(req,res) => {
     console.log("Servidor  trabajando en el puerto: ",PORT)

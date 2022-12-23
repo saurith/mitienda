@@ -1,6 +1,6 @@
 const ctrCliente = {};
-
 const cliente = require('../models/cliente');
+const categoria = require("../models/categoria");
 //Funcion CRUD
 //Create = Insert into document 
 ctrCliente.guardar = async (req,res) => {
